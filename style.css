@@ -1,0 +1,114 @@
+/* .row {
+  display: flex;
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    flex: 50%;
+  }
+   */
+body{
+    background-color: #42506B;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+}
+.action{
+    color: #3E619b;
+}
+#new-task{
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    border-radius: 1rem;
+    border-color: var(--dark);
+    background-color: transparent;
+    
+}
+
+.edit{
+    flex: 1 1 0%;
+    font-family: cursive;
+    color: lightgreen;
+    font-weight:bold;
+    font-size: large;
+    border-color: transparent;
+    border-radius: 2rem;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.delete{
+    flex: 1 1 0%;
+    font-family: cursive;
+    font-weight:bold;
+    font-size: large;
+    border-color: transparent;
+    border-radius: 2rem;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+
+}
+#submit_task{
+    font-family: cursive;
+    font-weight:700;
+    font-size: large;
+    color: pink;
+    cursor: pointer;
+    border-color: transparent;
+    border-radius: 2rem;
+    background-color: transparent;
+}
+#submit_task:hover{
+    color: aqua;
+}
+
+#tasks .task{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3e619b;
+    padding:1rem;
+    margin: 0 auto;
+    border-color: transparent ;
+}
+.text{
+    width: 15rem;
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+    font-family: 'Fira sans', sans-serif;
+    font-weight: bolder;
+    margin: auto;
+}
+.tasklist{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#tasks{
+    padding-top: 3em;
+    margin: 1 auto;
+}
+
+#tasks .task .content .text{
+    color: var(--dark);
+    font-size: larger;
+    padding-top: 6px;
+    margin: 0 auto;
+}
+
+.content{
+    flex: 1 1 0%;
+}
