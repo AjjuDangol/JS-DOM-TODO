@@ -10,8 +10,17 @@
         <h1 style="color:#EF4B4C;">Task for 2022</h1>
         <form action="" id="new_form">
             <input type="text" 
-            id="new-task"
+            id="new-task" class="textarea"
             placeholder="Add your plan"/>
+            <div class="voice-section">
+                <select name="" id="voice" style="background-color: transparent; border: transparent;">
+                    <option value="Google US English"> Google US English</option>
+                </select>
+                <button class="submit">
+                    Convert to Speech
+                </button>
+            </div>
+            <br>
             <input type="submit"
             id="submit_task"
             value="Add task"
